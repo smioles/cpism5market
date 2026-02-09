@@ -1,0 +1,105 @@
+.about-section{
+    display: flex;
+   align-items: center;
+   gap: 40px;
+   max-width: 1200px;
+   margin: auto;
+   padding: 50px 20px;
+   flex-wrap: wrap;
+}
+.about-text{
+    flex: 1;
+    min-width: 300px;
+}
+.about-image{
+    flex: 1;
+    min-width: 200px;
+}
+.about-image{
+    width: 60%;
+    height: 60%;
+    border-radius: 10px;
+}
+.about-text .p-market{
+    display: flex;
+    gap: 40px;
+    padding-top: 20px;
+
+}
+.about-text .our-story{
+   display: flex;
+    gap: 40px;
+    padding-bottom: 30px 
+}
+.card-container{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 60px;
+    font-size: 12px;
+    align-items: center;
+}
+.card-container h3{
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.card-container div{
+    border: solid rgba(128,128,128,0.575);
+    width: 300px;
+    height: 150px;
+    background-color: rgb(205,198,198);
+    text-align: center;
+    padding: 10px 10px;
+    
+}
+
+.card-container div:hover{
+    background-color: red;
+    
+}
+.customer{
+    display: flex;
+    align-items: center;
+    justify-self:center ;
+    gap: 6rem;
+    padding-top: 60px;
+    padding: 2rem 4rem;
+    font-size: small;
+}
+.custom{
+     width:170px;
+    object-fit: cover;
+    background-color: #F5F5F5;
+}
+.app{
+    width: 30px;
+}
+
+
+.category{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    font-size: 12px;
+    
+    align-items: center;
+}
+
+.category div{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  text-align: center;
+    gap: 10px;
+}
+.category h3{ 
+    font-size: 14px;
+}
+.category img{
+    width: 50px;
+}

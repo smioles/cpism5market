@@ -1,0 +1,36 @@
+.top-banner{
+    background-color: #000000;
+    color: white;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    align-items: center;
+    font-weight: 400;
+
+}
+
+.top-banner a{
+    margin-left: 20px;
+    color: white;
+}
+
+.top-banner select{
+    background-color: transparent;
+    border: none;
+    margin-left: 10%;
+    color: white;
+}
+.top-banner select option{
+    background-color: grey;
+    color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    .top-banner{
+        font-size: .4rem;
+    }
+    .top-banner a{
+        margin-left: 10px;
+    }
+}

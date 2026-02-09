@@ -1,0 +1,97 @@
+.signin-content{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 40px;
+
+}
+.signin-content img{
+    width: 50%;
+    height: 100vh;
+    object-fit: cover;
+}
+.form-wrapper{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+
+.form-wrapper form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-wrapper .form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+.form-wrapper h4{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.form-wrapper h5{
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.form-wrapper input{
+    border: none;
+    padding: .5rem;
+    font-size: 1.2rem;
+    border-bottom: 1px solid gray;
+}
+
+.signin-content .form-wrapper form button{
+    border: none;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: .2rem;
+    cursor: pointer; 
+    width: 40%;
+    transition: all 0.6s ease;
+ 
+    
+}
+.form-wrapper form button:hover{
+    opacity: .8;
+}
+
+.lower-button-wrapper{
+    display: flex;
+  
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+.signin-content .lower-button-wrapper a{
+    text-decoration: none;
+    color: grey;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+
+
+   .signin-content{
+    flex-direction: column;
+   } 
+   .signin-content img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+.signin-content .form-wrapper{
+    width: 100%;
+    padding: 1rem;
+}
+}
