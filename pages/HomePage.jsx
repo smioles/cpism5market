@@ -1,5 +1,5 @@
 import React from "react";
-import "./Homepage.css";
+import "./HomePage.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -23,6 +23,7 @@ const Homepage = () => {
     <div className="homepage">
       <TopBanner/>
       <NavComponent />
+      
 
       {/* Sction hero */}
 
